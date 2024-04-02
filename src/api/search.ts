@@ -1,7 +1,7 @@
 import axios from 'axios';
 import { Video } from './types';
 
-const API_KEY = 'AIzaSyDIQ-v7kgIk2dZL6V-H6h68ksT6Icsw4ng';
+// const API_KEY = 'AIzaSyDIQ-v7kgIk2dZL6V-H6h68ksT6Icsw4ng';
 
 async function searchVideos(query: string): Promise<Video[]> {
   try {
